@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="mc archive item"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="asus, MCreator"
+authors="snowylight, MCreator"
 
 [[dependencies.mc_archive_item]]
     modId="minecraft"
