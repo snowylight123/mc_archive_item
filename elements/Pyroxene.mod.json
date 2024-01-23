@@ -3,16 +3,16 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "enhance_stone_1",
+    "texture": "aokiseki",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Enchance Stnoe Low",
-    "rarity": "COMMON",
+    "name": "Pyroxene",
+    "rarity": "EPIC",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MCArchiveModTab"
     },
-    "stackSize": 64,
+    "stackSize": 16,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -30,7 +30,7 @@
       "fixedValue": []
     },
     "glowCondition": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

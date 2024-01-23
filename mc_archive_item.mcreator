@@ -1,97 +1,120 @@
 {
   "mod_elements": [
     {
-      "name": "EnhanceStoneLow",
+      "name": "Pyroxene",
       "type": "item",
-      "sortid": 2,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enhance_stone_low",
+      "registry_name": "pyroxene",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mcarchiveitem/item/EnhanceStoneLowItem.java",
-          "src/main/resources/assets/mc_archive_item/models/item/enhance_stone_low.json"
+          "src/main/java/net/mcreator/mcarchiveitem/item/PyroxeneItem.java",
+          "src/main/resources/assets/mc_archive_item/models/item/pyroxene.json"
         ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MCArchiveModTab",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_archive_mod_tab",
+      "metadata": {
+        "files": []
       }
     },
     {
-      "name": "EnchanceStoneMedium",
+      "name": "BeginnerReinforcedBead",
       "type": "item",
-      "sortid": 1,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enchance_stone_medium",
+      "registry_name": "beginner_reinforced_bead",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mc_archive_item/models/item/enchance_stone_medium.json",
-          "src/main/java/net/mcreator/mcarchiveitem/item/EnchanceStoneMediumItem.java"
+          "src/main/resources/assets/mc_archive_item/models/item/beginner_reinforced_bead.json",
+          "src/main/java/net/mcreator/mcarchiveitem/item/BeginnerReinforcedBeadItem.java"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
-      "name": "EnchanceStoneHigh",
+      "name": "IntermediateReinforcedBead",
       "type": "item",
-      "sortid": 3,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enchance_stone_high",
+      "registry_name": "intermediate_reinforced_bead",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mcarchiveitem/item/EnchanceStoneHighItem.java",
-          "src/main/resources/assets/mc_archive_item/models/item/enchance_stone_high.json"
+          "src/main/resources/assets/mc_archive_item/models/item/intermediate_reinforced_bead.json",
+          "src/main/java/net/mcreator/mcarchiveitem/item/IntermediateReinforcedBeadItem.java"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
-      "name": "EnchanceStoneHighest",
+      "name": "AdvancedReinforcedBead",
       "type": "item",
-      "sortid": 4,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "enchance_stone_highest",
+      "registry_name": "advanced_reinforced_bead",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mc_archive_item/models/item/enchance_stone_highest.json",
-          "src/main/java/net/mcreator/mcarchiveitem/item/EnchanceStoneHighestItem.java"
+          "src/main/resources/assets/mc_archive_item/models/item/advanced_reinforced_bead.json",
+          "src/main/java/net/mcreator/mcarchiveitem/item/AdvancedReinforcedBeadItem.java"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
-      "name": "BlueArchiveStone",
+      "name": "SuperlativeReinforcedBead",
       "type": "item",
-      "sortid": 5,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blue_archive_stone",
+      "registry_name": "superlative_reinforced_bead",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mcarchiveitem/item/BlueArchiveStoneItem.java",
-          "src/main/resources/assets/mc_archive_item/models/item/blue_archive_stone.json"
+          "src/main/resources/assets/mc_archive_item/models/item/superlative_reinforced_bead.json",
+          "src/main/java/net/mcreator/mcarchiveitem/item/SuperlativeReinforcedBeadItem.java"
         ]
-      }
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.mc_archive_item.enchance_stone_medium": "Enchance Stone Medium",
-      "item.mc_archive_item.blue_archive_stone": "Blue Archive Stone",
-      "item.mc_archive_item.enhance_stone_low": "Enchance Stnoe Low",
-      "item.mc_archive_item.enchance_stone_high": "Enchance Stone High",
-      "item.mc_archive_item.enchance_stone_highest": "Enchance Stone Highest"
+      "item.mc_archive_item.superlative_reinforced_bead": "Superlative Reinforced Bead",
+      "item.mc_archive_item.intermediate_reinforced_bead": "Intermediate Reinforced Bead",
+      "item_group.mc_archive_item.mc_archive_mod_tab": "MC Archive Mod Tab",
+      "item.mc_archive_item.pyroxene": "Pyroxene",
+      "item.mc_archive_item.beginner_reinforced_bead": "Beginner Reinforced Bead",
+      "item.mc_archive_item.advanced_reinforced_bead": "Advanced Reinforced Bead"
     },
     "zh_cn": {
-      "item.mc_archive_item.enchance_stone_medium": "一般强化石",
-      "item.mc_archive_item.blue_archive_stone": "Blue Archive Stone",
-      "item.mc_archive_item.enhance_stone_low": "下级强化石",
-      "item.mc_archive_item.enchance_stone_high": "高级强化石",
-      "item.mc_archive_item.enchance_stone_highest": "最高级强化石"
+      "item.mc_archive_item.superlative_reinforced_bead": "最高级强化珠",
+      "item.mc_archive_item.intermediate_reinforced_bead": "中级强化珠",
+      "item_group.mc_archive_item.mc_archive_mod_tab": "MC Archive Mod Tab",
+      "item.mc_archive_item.pyroxene": "青辉石",
+      "item.mc_archive_item.beginner_reinforced_bead": "初级强化珠",
+      "item.mc_archive_item.advanced_reinforced_bead": "高级强化珠"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "mc_archive_item",

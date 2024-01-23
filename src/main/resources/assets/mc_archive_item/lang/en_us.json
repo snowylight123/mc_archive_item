@@ -1,7 +1,8 @@
 {
-  "item.mc_archive_item.enchance_stone_medium": "Enchance Stone Medium",
-  "item.mc_archive_item.blue_archive_stone": "Blue Archive Stone",
-  "item.mc_archive_item.enhance_stone_low": "Enchance Stnoe Low",
-  "item.mc_archive_item.enchance_stone_high": "Enchance Stone High",
-  "item.mc_archive_item.enchance_stone_highest": "Enchance Stone Highest"
+  "item.mc_archive_item.superlative_reinforced_bead": "Superlative Reinforced Bead",
+  "item.mc_archive_item.intermediate_reinforced_bead": "Intermediate Reinforced Bead",
+  "item_group.mc_archive_item.mc_archive_mod_tab": "MC Archive Mod Tab",
+  "item.mc_archive_item.pyroxene": "Pyroxene",
+  "item.mc_archive_item.beginner_reinforced_bead": "Beginner Reinforced Bead",
+  "item.mc_archive_item.advanced_reinforced_bead": "Advanced Reinforced Bead"
 }
