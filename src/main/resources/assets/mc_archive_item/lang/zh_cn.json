@@ -1,7 +1,8 @@
 {
-  "item.mc_archive_item.enchance_stone_medium": "一般强化石",
-  "item.mc_archive_item.blue_archive_stone": "Blue Archive Stone",
-  "item.mc_archive_item.enhance_stone_low": "下级强化石",
-  "item.mc_archive_item.enchance_stone_high": "高级强化石",
-  "item.mc_archive_item.enchance_stone_highest": "最高级强化石"
+  "item.mc_archive_item.superlative_reinforced_bead": "最高级强化珠",
+  "item.mc_archive_item.intermediate_reinforced_bead": "中级强化珠",
+  "item_group.mc_archive_item.mc_archive_mod_tab": "MC Archive Mod Tab",
+  "item.mc_archive_item.pyroxene": "青辉石",
+  "item.mc_archive_item.beginner_reinforced_bead": "初级强化珠",
+  "item.mc_archive_item.advanced_reinforced_bead": "高级强化珠"
 }

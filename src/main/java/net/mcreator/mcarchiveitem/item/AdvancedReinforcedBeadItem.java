@@ -10,8 +10,8 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-public class EnchanceStoneHighItem extends Item {
-	public EnchanceStoneHighItem() {
+public class AdvancedReinforcedBeadItem extends Item {
+	public AdvancedReinforcedBeadItem() {
 		super(new Item.Properties().stacksTo(64).fireResistant().rarity(Rarity.RARE));
 	}
 

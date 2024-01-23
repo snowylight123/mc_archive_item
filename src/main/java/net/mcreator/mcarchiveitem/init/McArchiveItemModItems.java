@@ -10,18 +10,18 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
-import net.mcreator.mcarchiveitem.item.EnhanceStoneLowItem;
-import net.mcreator.mcarchiveitem.item.EnchanceStoneMediumItem;
-import net.mcreator.mcarchiveitem.item.EnchanceStoneHighestItem;
-import net.mcreator.mcarchiveitem.item.EnchanceStoneHighItem;
-import net.mcreator.mcarchiveitem.item.BlueArchiveStoneItem;
+import net.mcreator.mcarchiveitem.item.SuperlativeReinforcedBeadItem;
+import net.mcreator.mcarchiveitem.item.PyroxeneItem;
+import net.mcreator.mcarchiveitem.item.IntermediateReinforcedBeadItem;
+import net.mcreator.mcarchiveitem.item.BeginnerReinforcedBeadItem;
+import net.mcreator.mcarchiveitem.item.AdvancedReinforcedBeadItem;
 import net.mcreator.mcarchiveitem.McArchiveItemMod;
 
 public class McArchiveItemModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, McArchiveItemMod.MODID);
-	public static final RegistryObject<Item> ENCHANCE_STONE_MEDIUM = REGISTRY.register("enchance_stone_medium", () -> new EnchanceStoneMediumItem());
-	public static final RegistryObject<Item> ENHANCE_STONE_LOW = REGISTRY.register("enhance_stone_low", () -> new EnhanceStoneLowItem());
-	public static final RegistryObject<Item> ENCHANCE_STONE_HIGH = REGISTRY.register("enchance_stone_high", () -> new EnchanceStoneHighItem());
-	public static final RegistryObject<Item> ENCHANCE_STONE_HIGHEST = REGISTRY.register("enchance_stone_highest", () -> new EnchanceStoneHighestItem());
-	public static final RegistryObject<Item> BLUE_ARCHIVE_STONE = REGISTRY.register("blue_archive_stone", () -> new BlueArchiveStoneItem());
+	public static final RegistryObject<Item> PYROXENE = REGISTRY.register("pyroxene", () -> new PyroxeneItem());
+	public static final RegistryObject<Item> BEGINNER_REINFORCED_BEAD = REGISTRY.register("beginner_reinforced_bead", () -> new BeginnerReinforcedBeadItem());
+	public static final RegistryObject<Item> INTERMEDIATE_REINFORCED_BEAD = REGISTRY.register("intermediate_reinforced_bead", () -> new IntermediateReinforcedBeadItem());
+	public static final RegistryObject<Item> ADVANCED_REINFORCED_BEAD = REGISTRY.register("advanced_reinforced_bead", () -> new AdvancedReinforcedBeadItem());
+	public static final RegistryObject<Item> SUPERLATIVE_REINFORCED_BEAD = REGISTRY.register("superlative_reinforced_bead", () -> new SuperlativeReinforcedBeadItem());
 }

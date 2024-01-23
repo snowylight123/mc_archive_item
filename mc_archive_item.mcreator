@@ -69,6 +69,77 @@
           "src/main/resources/assets/mc_archive_item/models/item/blue_archive_stone.json"
         ]
       }
+    },
+    {
+      "name": "Pyroxene",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyroxene",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mcarchiveitem/item/PyroxeneItem.java",
+          "src/main/resources/assets/mc_archive_item/models/item/pyroxene.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MCArchiveModTab",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_archive_mod_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BeginnerReinforcedBead",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beginner_reinforced_bead",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mc_archive_item/models/item/beginner_reinforced_bead.json",
+          "src/main/java/net/mcreator/mcarchiveitem/item/BeginnerReinforcedBeadItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "IntermediateReinforcedBead",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "intermediate_reinforced_bead",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mc_archive_item/models/item/intermediate_reinforced_bead.json",
+          "src/main/java/net/mcreator/mcarchiveitem/item/IntermediateReinforcedBeadItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "AdvancedReinforcedBead",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_reinforced_bead",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mc_archive_item/models/item/advanced_reinforced_bead.json",
+          "src/main/java/net/mcreator/mcarchiveitem/item/AdvancedReinforcedBeadItem.java"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -77,21 +148,36 @@
     "en_us": {
       "item.mc_archive_item.enchance_stone_medium": "Enchance Stone Medium",
       "item.mc_archive_item.blue_archive_stone": "Blue Archive Stone",
+      "item.mc_archive_item.intermediate_reinforced_bead": "Intermediate Reinforced Bead",
       "item.mc_archive_item.enhance_stone_low": "Enchance Stnoe Low",
       "item.mc_archive_item.enchance_stone_high": "Enchance Stone High",
-      "item.mc_archive_item.enchance_stone_highest": "Enchance Stone Highest"
+      "item.mc_archive_item.enchance_stone_highest": "Enchance Stone Highest",
+      "item_group.mc_archive_item.mc_archive_mod_tab": "MC Archive Mod Tab",
+      "item.mc_archive_item.pyroxene": "Pyroxene",
+      "item.mc_archive_item.beginner_reinforced_bead": "Beginner Reinforced Bead",
+      "item.mc_archive_item.advanced_reinforced_bead": "Advanced Reinforced Bead"
     },
     "zh_cn": {
       "item.mc_archive_item.enchance_stone_medium": "一般强化石",
       "item.mc_archive_item.blue_archive_stone": "Blue Archive Stone",
+      "item.mc_archive_item.intermediate_reinforced_bead": "Intermediate Reinforced Bead",
       "item.mc_archive_item.enhance_stone_low": "下级强化石",
       "item.mc_archive_item.enchance_stone_high": "高级强化石",
-      "item.mc_archive_item.enchance_stone_highest": "最高级强化石"
+      "item.mc_archive_item.enchance_stone_highest": "最高级强化石",
+      "item_group.mc_archive_item.mc_archive_mod_tab": "MC Archive Mod Tab",
+      "item.mc_archive_item.pyroxene": "Pyroxene",
+      "item.mc_archive_item.beginner_reinforced_bead": "Beginner Reinforced Bead",
+      "item.mc_archive_item.advanced_reinforced_bead": "Advanced Reinforced Bead"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "mc_archive_item",

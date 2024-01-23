@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "enhance_stone_4",
+    "texture": "enhance_stone_2",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Enchance Stone Highest",
-    "rarity": "RARE",
+    "name": "Intermediate Reinforced Bead",
+    "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MCArchiveModTab"
     },
     "stackSize": 64,
     "enchantability": 0,

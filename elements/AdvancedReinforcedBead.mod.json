@@ -7,10 +7,10 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Enchance Stone High",
+    "name": "Advanced Reinforced Bead",
     "rarity": "RARE",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MCArchiveModTab"
     },
     "stackSize": 64,
     "enchantability": 0,

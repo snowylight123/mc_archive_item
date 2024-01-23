@@ -3,16 +3,16 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "qqtu_pian_20240121134355",
+    "texture": "aokiseki",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Blue Archive Stone",
+    "name": "Pyroxene",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:MCArchiveModTab"
     },
-    "stackSize": 16,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

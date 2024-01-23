@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "enhance_stone_2",
+    "texture": "enhance_stone_4",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Enchance Stone Medium",
-    "rarity": "UNCOMMON",
+    "name": "Superlative Reinforced Bead",
+    "rarity": "EPIC",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MCArchiveModTab"
     },
     "stackSize": 64,
     "enchantability": 0,
