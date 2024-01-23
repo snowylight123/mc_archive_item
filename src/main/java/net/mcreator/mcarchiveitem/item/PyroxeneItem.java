@@ -15,7 +15,7 @@ import java.util.List;
 
 public class PyroxeneItem extends Item {
 	public PyroxeneItem() {
-		super(new Item.Properties().stacksTo(64).fireResistant().rarity(Rarity.EPIC));
+		super(new Item.Properties().stacksTo(16).fireResistant().rarity(Rarity.EPIC));
 	}
 
 	@Override
